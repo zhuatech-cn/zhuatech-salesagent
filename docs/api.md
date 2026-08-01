@@ -10,3 +10,4 @@
 | GET | `/api/shopfloor/dashboard` | 客户经理工作台 |
 | POST | `/api/shopfloor/work-orders/{id}/reports` | 确认销售行动 |
 | POST | `/api/shopfloor/agent-preview` | 生成本地演示销售建议 |
+| POST | `/api/shopfloor/lead-action` | 评估商机热度并生成下一最佳行动与升级建议 |

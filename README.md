@@ -19,6 +19,8 @@
 
 ![SalesAgent 客户经理 H5 工作台](docs/images/salesagent-copilot-h5.png)
 
+Next Best Action 引擎会结合预计金额、赢率、停滞天数、决策人参与和竞争态势计算商机热度，输出行动清单及经理升级标记。它只提供可解释的销售建议，不替代客户经理作出价格、交付或合同承诺。
+
 ### 工程速览
 
 后端：Java 21 + Spring Boot + Spring Security + JWT + JPA + Flyway；包名 `cn.zhuatech.salesagent`。前端：Vue 3 + Pinia + Vue Router + Axios + Vite，支持桌面与 H5。数据库：MySQL 8，自动化测试使用 H2。`AgentRuntime` 提供可替换边界，默认仅运行本地演示流程，不接入真实 CRM、邮箱或模型服务。
