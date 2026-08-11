@@ -46,3 +46,7 @@ npm run dev:demo
 | ![知华科技微信二维码一](docs/images/zhuatech-wechat-consulting.png) | ![知华科技微信二维码二](docs/images/zhuatech-wechat-consulting-2.png) |
 
 关键词：销售智能体源码、Sales Agent、B2B 销售助手、商机管理 AI、客户研究 Agent、Java Vue 销售系统、知华科技。
+
+## 商机行动优先级
+
+新增 `POST /api/salesagent/insights/opportunity-priority`，综合金额、阶段、互动、停滞、决策期、内部支持者和竞品，输出 `ACT_NOW`、`NURTURE` 或 `MONITOR`。
