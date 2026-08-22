@@ -1,4 +1,4 @@
-/* Copyright 2026 上海如静知华信息科技有限公司 */
+/* Copyright 2026 上海如静知华信息科技有限公司 · https://www.zhuatech.cn/ */
 package cn.zhuatech.salesagent.agent;
 import org.springframework.stereotype.Component; import java.util.List; import java.util.Map;
 /** 销售智能体运行边界；演示执行器不会发送邮件或写回真实 CRM。 */
